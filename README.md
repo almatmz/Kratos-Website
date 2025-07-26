@@ -18,6 +18,9 @@ This project reflects Kratos's deep character arc:
 
 - **Regret and Redemption Era (God of War 2018 and Ragnarök)**  
   Years later, Kratos is a changed man. Now a father, he hides from his past and tries to live a life of wisdom, teaching his son *Atreus* not to repeat his mistakes. His arc is one of guilt, growth, and redemption — choosing restraint over wrath.
+
+  <img width="1919" height="980" alt="image" src="https://github.com/user-attachments/assets/93bc500d-3b7b-4593-9c76-067f0eae5f44" />
+
   
 ## 🔧 Getting Started
 
