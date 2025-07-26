@@ -27,5 +27,5 @@ This project reflects Kratos's deep character arc:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/kratos-website.git
+git clone https://github.com/almatmz/Kratos-Website.git
 cd kratos-website
