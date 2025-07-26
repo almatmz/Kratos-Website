@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kratos: Revenge vs Regret</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <audio id="bgAudio" autoplay loop>
+        <source src="audio.mp3" type="audio/mpeg" />
+      </audio>
+
+      <div class="main-content">
+        <div class="kratos-section left-section" id="youngKratosSection">
+          <video id="youngKratosVideo" autoplay muted loop>
+            <source src="background_videos/young_kratos.mp4" type="video/mp4" />
+          </video>
+          <div class="video-overlay">
+            <div class="kratos-title" id="revengeText">
+              <h2>REVENGE</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="vs-section">
+          <div class="vs-container">
+            <div class="vs-glow"></div>
+            <div class="vs-text">
+              <span>VS</span>
+            </div>
+            <div class="vs-rings">
+              <div class="ring ring-1"></div>
+              <div class="ring ring-2"></div>
+            </div>
+          </div>
+          <div class="subtitle">
+            <p>The Evolution of a God</p>
+          </div>
+        </div>
+
+        <div class="kratos-section right-section" id="oldKratosSection">
+          <video id="oldKratosVideo" autoplay muted loop>
+            <source src="background_videos/old_kratos.mp4" type="video/mp4" />
+          </video>
+          <div class="video-overlay">
+            <div class="kratos-title" id="regretText">
+              <h2>REGRET</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-panel" id="youngKratosInfo">
+        <div class="info-content">
+          <button class="close-btn" onclick="closeInfo()">&times;</button>
+          <h2>Young Kratos - The Ghost of Sparta</h2>
+          <div class="info-grid">
+            <div class="info-text">
+              <h3>Driven by Vengeance</h3>
+              <p>
+                The younger Kratos is consumed by rage and the desire for
+                revenge against the gods who betrayed him. After being tricked
+                into killing his own family by Ares, he becomes the Ghost of
+                Sparta, marked by their ashes.
+              </p>
+
+              <h3>Weapons & Powers</h3>
+              <ul>
+                <li>
+                  Blades of Chaos - Chained weapons forged in the depths of
+                  Hades
+                </li>
+                <li>
+                  Spartan Rage - Uncontrollable fury that grants immense power
+                </li>
+                <li>God-slaying abilities gained through his journey</li>
+                <li>Incredible strength and brutal combat skills</li>
+              </ul>
+
+              <h3>Character Traits</h3>
+              <ul>
+                <li>Ruthless and brutal in combat</li>
+                <li>Single-minded focus on revenge</li>
+                <li>Willing to sacrifice anything for power</li>
+                <li>Haunted by his past sins</li>
+                <li>Unforgiving towards enemies and gods alike</li>
+              </ul>
+            </div>
+            <div class="info-image">
+              <img
+                src="https://via.placeholder.com/400x500/8B0000/FFFFFF?text=Young+Kratos+Details"
+                alt="Young Kratos Details"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-panel" id="oldKratosInfo">
+        <div class="info-content">
+          <button class="close-btn" onclick="closeInfo()">&times;</button>
+          <h2>Old Kratos - The Father</h2>
+          <div class="info-grid">
+            <div class="info-text">
+              <h3>Seeking Redemption</h3>
+              <p>
+                The older Kratos has learned from his past mistakes. Now a
+                father to Atreus, he struggles to control his rage and be a
+                better man. He carries the weight of his actions and seeks to
+                break the cycle of violence.
+              </p>
+
+              <h3>Weapons & Powers</h3>
+              <ul>
+                <li>Leviathan Axe - A powerful weapon imbued with frost</li>
+                <li>Controlled Spartan Rage - Channeled fury with purpose</li>
+                <li>
+                  Guardian Shield - Defensive capabilities and strategic combat
+                </li>
+                <li>Wisdom gained from experience and loss</li>
+              </ul>
+
+              <h3>Character Growth</h3>
+              <ul>
+                <li>Protective and caring father figure</li>
+                <li>Strives to control his violent nature</li>
+                <li>Teaches wisdom and restraint to his son</li>
+                <li>Haunted but learning to forgive himself</li>
+                <li>Seeks to be a better role model</li>
+              </ul>
+            </div>
+            <div class="info-image">
+              <img
+                src="https://via.placeholder.com/400x500/2F4F4F/FFFFFF?text=Old+Kratos+Details"
+                alt="Old Kratos Details"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
