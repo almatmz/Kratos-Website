@@ -21,7 +21,8 @@ This project reflects Kratos's deep character arc:
 
   <img width="1919" height="980" alt="image" src="https://github.com/user-attachments/assets/93bc500d-3b7b-4593-9c76-067f0eae5f44" />
 
-  
+**How website works -->** [kratos.zip](https://github.com/user-attachments/files/21697107/kratos.zip)
+
 ## 🔧 Getting Started
 
 ### 1. Clone the repository
